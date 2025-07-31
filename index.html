@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg p-3 barra" id="arriba">
+  <div class="container-fluid">
+    <!-- Izquierda: Logo + Name -->
+    <a class="navbar-brand me-2" href="# brand"><img src="img/JMZ-Orange.svg" width="100px" height="100px" alt=""></a>
+    <span class="navbar-text fw-bold me-auto font">Jame'z Steak House</span>
+    <!-- ↑ me-auto empuja TODO lo que sigue hacia la derecha -->
+
+    <!-- Botón hamburguesa (móvil) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Derecha: links + botón -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#Acerca de">Acerca de</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#Menú">Menú</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#Eventos">Eventos</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#Chef">Chef</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#Galeria">Galería</a></li>
+        <li class="nav-item"></li>
+      </ul>
+      <a class="btn btn-outline-danger ms-lg-3 mt-2 mt-lg-0 text-l text-light" href="#Reservaciones">Reserva</a>
+    
+    </div>
+  </div>
+</nav>
+<!-- Sección del Hero -->
+<div class="container-fluid text-center foxgris fondo p-5">
+  <div class="row">
+    <div class="col p-3">
+      <h1 class="naranja">Los mejores cortes de la Provincia</h1>
+      <h4>Contamos con una alta variedad de cortes de carne de alta calidad</h4>
+      <div class="d-flex justify-content-center">
+      <a href="#Reservaciones" type="button" class="btn btn-danger text-dark m-3">Haz tu Reserva</a>
+      <a href="#Menú" type="button" class="btn btn-warning text-dark m-3">Visita Nuestro Menú</a>
+    </div></div>
+    <div class="col">
+
+    </div>
+    <div class="col">
+      <figure class="imagen-circular heroimg"><img src="img/filete hero.jpg" class="rounded-circle minimove" alt=""></figure>
+    </div>
+  </div>
+</div>
+    </header>
+
+    <main>
+      <!-- Sección Acerca de Nosotros -->
+      <section class="onlygray p-4" id="Acerca de">
+        <div class="container-fluid text-center d-flex foxgris p-4">
+  <div class="row d-flex align-items-center">
+  <div class="col-12 col-md-6 mb-3 mb-md-0">
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/_dui6BUmMBg?si=V7mSolZ0H7NXxx7F" 
+              title="YouTube video player" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Texto -->
+  <div class="col-12 col-md-6">
+    <h1></h1>
+    <p class="fs-4 text-center text-md-start">
+      En nuestro Steak House, cada corte cuenta una historia. Nos especializamos en ofrecer carnes de la más alta calidad, preparadas al punto perfecto sobre fuego real, con el sabor auténtico que solo la pasión por la cocina puede lograr.
+      <br><br>
+      Desde nuestros inicios, hemos buscado más que servir comida: queremos brindar una experiencia inolvidable. Un ambiente cálido, atención personalizada y platos que despiertan todos los sentidos son parte de lo que nos distingue.
+      <br><br>
+      Ya sea una cena especial, una reunión con amigos o simplemente un antojo de un buen filete, nuestro compromiso es que te vayas con una sonrisa… y con ganas de volver.
+    </p>
+  </div>
+</div>
+    </div>
+    <a class="container border border-white d-flex justify-content-around fs-1 p-1 text-decoration-none foxgris" href="https://wa.me/50661511401">
+      <p class="text-light fw-bold">Reserva una mesa con nosotros</p>
+      <i class="bi bi-whatsapp f-1 naranja"></i>
+    </a>
+</section>
+<!-- Sección por que Elegirnos -->
+<div class="container text-center p-4">
+  <div class="row align-items-center">
+    <div class="col  mb-3 mb-md-0 bg-danger text-light move p-5">
+      <h2>Por que Elegirnos</h2>
+      <p class="col fs-5">En Jame'z Steak House, no solo servimos cortes de carne: entregamos experiencias. Cada platillo es una combinación perfecta entre tradición, sabor y calidad. Nos apasiona el fuego, la parrilla y ese punto exacto donde cada bocado se vuelve inolvidable.</p>
+    </div>
+    <div class="col  mb-3 mb-md-0">
+     <div class="card move" style="width: 18rem;">
+      <i class="bi bi-fire fs-2"></i>
+  <div class="card-body">
+    <h5 class="card-title p-1">Carnes Premium Seleccionadas</h5>
+    <p class="card-text">Trabajamos con los mejores proveedores para ofrecerte solo los cortes más jugosos, tiernos y llenos de sabor.</p>
+  </div>
+</div>
+    </div>
+    <div class="col  mb-3 mb-md-0">
+      <div class="card move" style="width: 18rem;">
+        <img src="img/glass-295398.svg" width="">
+  <div class="card-body">
+    <h5 class="card-title">Maridajes Cuidadosamente Pensados</h5>
+    <p class="card-text p-1">Nuestra selección de vinos y bebidas ha sido elegida para realzar cada platillo con armonía.</p>
+  </div>
+</div>
+    </div>
+    <div class="col  mb-3 mb-md-0">
+      <div class="card move" style="width: 18rem;">
+      <i class="bi bi-person-fill-check fs-2"></i>
+  <div class="card-body">
+    <h5 class="card-title p-1">Atención Detallada y Servicio Cálido</h5>
+    <p class="card-text">Desde la bienvenida hasta el último bocado, te acompañamos con un servicio atento, respetuoso y apasionado por lo que hacemos.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<!-- Sección Nuestro Menú -->
+<!-- Navegación de Tabs -->
+ <section class="foxgris" id="Menú">
+ <h1 class="d-flex justify-content-center">NUESTRO MENÚ</h1>
+ <ul class="nav nav-tabs justify-content-center foxgris mb-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab">Entradas</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab">Platos Fuertes</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab">Ensaladas</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab">Acompañamientos</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button" role="tab">Bebidas</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab6-tab" data-bs-toggle="tab" data-bs-target="#tab6" type="button" role="tab">Postres</button>
+  </li>
+ </ul>
+ <!-- Contenido de cada Tab -->
+ <div class="tab-content foxgris fondo2" id="myTabContent">
+
+  <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+  <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Langostinos al Ajillo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Langostinos al Ajillo</h3>
+                <p class="card-text fs-5">Langostinos frescos salteados con ajo y mantequilla, servidos sobre pan artesanal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Tartar de Res.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Tartar de Res Angus</h3>
+                <p class="card-text fs-5">Finos trozos de carne Angus marinados con especias, alcaparras y yema de huevo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Bruschettas de Chorizo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Bruschettas de Chorizo Artesanal</h3>
+                <p class="card-text fs-5">Pan rústico con chorizo casero, tomate deshidratado y queso derretido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Sopa de Cebolla con Queso.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Sopa de Cebolla con Queso Gruyère</h3>
+                <p class="card-text fs-5">Receta tradicional francesa gratinada con pan crocante y queso fundido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+ <!-- Contenido de Platos Fuertes -->
+  <div class="tab-pane fade" id="tab2" role="tabpanel">
+  <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Tomahawk - 03.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Tomahawk Steak</h3>
+                <p class="card-text fs-5">Corte premium de carne con hueso, asado a la leña, servido con mantequilla de ajo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/New York con Chimichurri.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Filete New York con Chimichurri</h3>
+                <p class="card-text fs-5">Corte jugoso bañado en nuestra salsa casera de chimichurri.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Costillas BBQ a la Casa.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Costillas BBQ al Estilo de la Casa</h3>
+                <p class="card-text fs-5">Costillas de cerdo marinadas 24 horas y cocinadas a fuego lento con BBQ artesanal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Ribeye con Papas rusticas - 03.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Ribeye a la Parrilla con Papas Rústicas</h3>
+                <p class="card-text fs-5">Corte marmoleado servido con papas al romero y salsa de vino tinto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+ <!-- Contenido de Ensaladas -->
+  <div class="tab-pane fade" id="tab3" role="tabpanel">
+ <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Ensalada de Rucula y Pera.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Ensalada de Rúcula y Pera</h3>
+                <p class="card-text fs-5">Mezcla de rúcula fresca, peras caramelizadas, nueces y vinagreta balsámica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Ensalada Caprese Balsamico.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Ensalada Caprese con Reducción de Balsámico</h3>
+                <p class="card-text fs-5">Tomate, mozzarella y albahaca fresca con un toque de reducción dulce.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Ensalada Cesar con Pollo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Ensalada César con Pollo a la Parrilla</h3>
+                <p class="card-text fs-5">Lechuga romana, crutones, parmesano y pechuga a la brasa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Ensalada de espinacas y queso azul.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Ensalada de Espinaca y Queso Azul</h3>
+                <p class="card-text fs-5">Espinaca fresca, manzana verde, nueces y aderezo cremoso.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ <!-- Contenido de Acompañamientos -->
+  <div class="tab-pane fade" id="tab4" role="tabpanel">
+ <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Yuka Frita con Aguacate.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Yuca Frita con Salsa de Aguacate</h3>
+                <p class="card-text fs-5">Crujiente por fuera, suave por dentro, con salsa cremosa de la casa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Mazorca  a la Parrilla.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Mazorca a la Parrilla con Mantequilla de Ajo</h3>
+                <p class="card-text fs-5">Dulce y dorada, ideal para los amantes del maíz asado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Pure de papa Trufado - 02.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Puré de Papa Trufado</h3>
+                <p class="card-text fs-5">Cremoso puré con un sutil aroma a trufa blanca.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Vegetales Salteados.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Vegetales Salteados con Finas Hierbas</h3>
+                <p class="card-text fs-5">Mezcla de temporada con aceite de oliva y toque de romero.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ <!-- Contenido de Bebidas -->
+  <div class="tab-pane fade" id="tab5" role="tabpanel">
+ <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Limonada con romero y miel.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Limonada con Romero y Miel</h3>
+                <p class="card-text fs-5">Refrescante y aromática, perfecta para cualquier comida.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Te Frio Artesanal.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Té Frío Artesanal de Durazno</h3>
+                <p class="card-text fs-5">Preparado en casa con infusión natural y hielo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Refrescos Naturales de Temporada - 02.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Refrescos Naturales de Temporada</h3>
+                <p class="card-text fs-5">Frutas locales frescas: maracuyá, piña o guanábana.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Cerveza Artesanal.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Cerveza Artesanal de la Casa</h3>
+                <p class="card-text fs-5">Lager dorada elaborada especialmente para nuestro menú.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   </div>
+   <!-- Contenido de Postres -->
+  <div class="tab-pane fade" id="tab6" role="tabpanel">
+ <div class="container">
+    <!-- Primera fila -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Cheesecake Frutos Rojos.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Cheesecake de Frutos Rojos</h3>
+                <p class="card-text fs-5">Cremoso con base crocante y topping de frutas frescas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Brownie de Chocolate Oscuro.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Brownie de Chocolate Oscuro</h3>
+                <p class="card-text fs-5">Acompañado de helado de vainilla artesanal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Tarta de Manzana.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body">
+                <h3 class="card-title">Tarta de Manzana Caramelizada</h3>
+                <p class="card-text fs-5">Caliente, con canela y una bola de helado encima.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/Creme de Café.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8 foxgris">
+              <div class="card-body ">
+                <h3 class="card-title">Crème Brûlée de Café</h3>
+                <p class="card-text fs-5">Versión especial con esencia de café tostado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+   <!-- Sección Especialidad del Chef -->
+    <div><section class="d-flex justify-content-center p-3">
+      <h1 class="container-fluid text-center foxgrisopa p-5">Especialidad del Chef</h1></section>
+      <article class="d-flex flex-column flex-md-row align-items-center justify-content-around">
+  <div class="card m-2 foxgrisopa" style="width: 18rem;">
+    <img src="img/Costilla Ahumada al Whisky.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title m-2">Costilla Ahumada al Whisky</h3>
+      <p class="card-text m-2 fs-5"><b>Descripción:</b>
+      Costilla de res cocinada lentamente durante 8 horas en horno de leña, ahumada con chips de roble y bañada en una salsa especial de whisky y miel. Se sirve con papas rústicas, ensalada fresca de la casa y pan artesanal.</p>
+      <p><b>Por qué es especial:</b>
+      Receta original del chef, inspirada en las tradiciones del sur de Estados Unidos, con un toque único de sabor profundo y caramelizado.</p>
+    </div>
+  </div>
+
+  <div class="card m-2 foxgrisopa" style="width: 18rem;">
+    <img src="img/Filete de Lomo con Mantequilla de Hierbas.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title m-2">Filete de Lomo con Mantequilla de Hierbas</h3>
+      <p class="card-text m-2 fs-5"><b>Descripción:</b>
+      Jugoso filete de lomo angus, sellado al punto perfecto y cubierto con mantequilla casera de hierbas finas. Acompañado de vegetales al grill y arroz con almendras.</p>
+      <p><b>Por qué es especial:</b>
+      El corte premium se selecciona a mano cada mañana. Su cocción precisa y el toque final de mantequilla infusionada lo convierten en una experiencia inolvidable.</p>
+    </div>
+  </div>
+</article>
+</div>
+ </div>
+ </section>
+
+ <!-- Sección de Testimonios -->
+ <section>
+  <h1 class="text-center p-5 mb-5 mt-5">Testimonios</h1>
+<div class="container text-center p-5 bg-light shadow-lg rounded">
+  <div class="row align-items-center flex-column flex-md-row">
+    <div class="col-md order-1 order-md-0">
+      <img src="img/gordon-ramsay.webp" class="p-3" width="50%" alt="Crítico famoso">
+    </div>
+    <div class="col-md order-0 order-md-1">
+      <h1 class="fw-bold">Chef Dominique Lefèvre</h1>
+      <p class="text-muted mb-2 fs-3">Crítico Culinario – <em>Gourmet Global Magazine</em></p>
+      <p class="fst-italic fs-2">
+        “Una experiencia sensorial que logra el equilibrio entre tradición, innovación y emoción. Este lugar tiene alma, y se siente en cada bocado.”
+      </p>
+      <section class="d-flex justify-content-center fs-1">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+      </section>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sección Testimonios Pequeños -->
+  <section class="container testimonios-pequenos d-flex flex-wrap justify-content-between gap-4 mt-5">
+  
+  <!-- Español -->
+  <div class="card p-4 shadow text-center" style="width: 250px;">
+    <i class="bi bi-fork-knife fs-1"></i>
+    <p class="fst-italic fs-5">"Una explosión de sabores auténticos. Volveré con mi familia muy pronto."</p>
+    <section class="d-flex justify-content-center fs-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+        </section>
+    <small class="text-muted">– Revista Sabores CR</small>
+  </div>
+
+  <!-- Alemán -->
+  <div class="card p-4 shadow text-center" style="width: 250px;">
+   <i class="bi bi-fork-knife fs-1"></i>
+    <p class="fst-italic fs-5">"Echte Leidenschaft in jedem Gericht. Eine unvergessliche Erfahrung."</p>
+    <section class="d-flex justify-content-center fs-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </section>
+    <small class="text-muted">– Berliner Kulinarik</small>
+  </div>
+
+  <!-- Inglés -->
+  <div class="card p-4 shadow text-center" style="width: 250px;">
+    <i class="bi bi-fork-knife fs-1"></i>
+    <p class="fst-italic fs-5">"A hidden gem. Service was outstanding, and the food was simply divine."</p>
+    <section class="d-flex justify-content-center fs-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </section>
+    <small class="text-muted">– The Hungry Traveler</small>
+  </div>
+</section>
+</section>
+ </section>
+
+ <!-- Sección de Galeria -->
+  <h1 class="text-center p-5 mb-5" id="Galeria">Galeria</h1>
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 text-center">
+        <img src="img/galeria - 01.jpg" class="img-fluid rounded-start p-1 mx-auto d-block" alt="" data-bs-toggle="modal" data-bs-target="#modalImagen1">
+      </div>
+      <div class="col-12 col-md-6 text-center">
+        <img src="img/galeria - 02.jpg" class="img-fluid rounded-start p-1 mx-auto d-block" alt="" data-bs-toggle="modal" data-bs-target="#modalImagen2">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 text-center">
+        <img src="img/galeria - 033.jpg" class="img-fluid rounded-start p-1 mb-5 mx-auto d-block" alt="" data-bs-toggle="modal" data-bs-target="#modalImagen3">
+      </div>
+      <div class="col-12 col-md-6 text-center">
+        <img src="img/galeria - 04.jpg" width="95%" class="img-fluid rounded-start mb-5 mx-auto d-block" alt="" data-bs-toggle="modal" data-bs-target="#modalImagen4">
+      </div>
+    </div>
+  </div>
+<!-- MODAL 1 -->
+<div class="modal fade" id="modalImagen1" tabindex="-1" aria-labelledby="modalImagen1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center p-0">
+        <img src="img/galeria - 01.jpg" class="img-fluid rounded shadow" alt="Imagen ampliada">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 2 -->
+<div class="modal fade" id="modalImagen2" tabindex="-1" aria-labelledby="modalImagen1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center p-0">
+        <img src="img/galeria - 02.jpg" class="img-fluid rounded shadow" alt="Imagen ampliada">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 3 -->
+<div class="modal fade" id="modalImagen3" tabindex="-1" aria-labelledby="modalImagen1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center p-0">
+        <img src="img/galeria - 033.jpg" class="img-fluid rounded shadow" alt="Imagen ampliada">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 4 -->
+<div class="modal fade" id="modalImagen4" tabindex="-1" aria-labelledby="modalImagen1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center p-0">
+        <img src="img/galeria - 04.jpg" class="img-fluid rounded shadow" alt="Imagen ampliada">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Sección de Chef Profesionales -->
+<section class="foxgris fondo3 p-3 mb-5" id="Chef">
+  <h1 class="text-center mb-5 foxgrisopa p-5">Nuestros Chef Profesionales</h1>
+  <div class="container text-center mb-5">
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card foxgrisopa" style="width: 18rem;">
+  <img src="img/alexander -01.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Alexander Méndez <br> (Costa Rica)</h3>
+    <p class="fst-italic fs-6">"Una buena parrilla es como una sinfonía: cada ingrediente tiene su tiempo perfecto."</p>
+    <p class="card-text fs-5">Alexander es un apasionado chef costarricense, reconocido por fusionar sabores latinoamericanos con la elegancia del grill clásico. Graduado en alta cocina en Argentina y formado en técnicas de cocción en fuego directo, Alexander lidera con creatividad y pasión, brindando una experiencia sensorial en cada platillo.</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card foxgrisopa" style="width: 18rem;">
+  <img src="img/lucia - 01.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Lucía Müller (Alemania)</h3>
+    <p class="fst-italic fs-6">"El arte de un buen steak es saber cuándo dejar que hable por sí solo."</p>
+    <p class="card-text fs-5">Müller es una renombrada chef nacida en Hamburgo, Alemania, con más de 20 años de experiencia en parrilla de alta precisión. Su formación en cocina bávara y su especialización en cortes premium la han llevado a trabajar en algunos de los mejores restaurantes de Europa. En nuestro Steak House, Müller aporta su maestría en la maduración de carnes, técnicas de ahumado lento y presentación impecable.</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card foxgrisopa" style="width: 18rem;">
+  <img src="img/ethan - 01.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Ethan Carter (EE.UU.)</h3>
+    <p class="fst-italic fs-6">"El secreto no está solo en la carne, sino en cómo la tratas desde el fuego hasta el plato."</p>
+    <p class="card-text fs-5">Ethan es un maestro en la cultura americana del Steak House. Originario de Texas, ha sido galardonado múltiples veces por su excelencia en técnicas de cocción al carbón y su habilidad para realzar el sabor natural de cada corte. Su estilo rústico y elegante transforma lo tradicional en una experiencia gourmet inolvidable.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Sección de Reservacion -->
+ <section id="Reservaciones">
+  <div class="container-fluid text-center foxgris p-5">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6 order-1 order-md-0 mb-4 mb-md-0">
+      <img src="img/logo grande.png" class="card-img-top mx-auto d-block" alt="">
+    </div>
+
+    <div class="col-12 col-md-6 text-center text-md-start">
+      <h2>Reserva una Mesa</h2>
+      <p class="fs-7">No te quedés sin lugar, hacé tu reserva con anticipación y asegurá una experiencia inolvidable.</p>
+      <p class="fs-5 mb-5">En nuestro restaurante, cada corte es una obra maestra. Disfrutá de un ambiente exclusivo, atención de primer nivel y los mejores sabores a la parrilla. Tu mesa te espera.</p>
+
+      <h3>Horario de Apertura</h3>
+      <ul class="list-unstyled mb-5">
+        <li>Lunes a Viernes: 12:00 p.m. – 11:00 p.m.</li>
+        <li>Sábado: 1:00 p.m. – 12:00 a.m.</li>
+        <li class="mb-5">Domingo: Cerrado</li>
+      </ul>
+
+      <h3>Ubicación</h3>
+      <p class="mb-5">Maximilianstraße 17, 80539 Múnich, Alemania</p>
+
+      <h3>Llamanos</h3>
+      <p><a href="tel:+498912345678" class="text-decoration-none">+49 89 1234 5678</a></p>
+    </div>
+  </div>
+</div>
+
+<article class="foxgris">
+  <h2 class="text-center">Reserva Ahora</h2>
+  <div class="mb-3 container">
+  <label for="exampleFormControlInput1" class="form-label text-start">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<div class="container">Cuantas Personas Vendran??</div>
+<select class="form-select container" size="3" aria-label="Size 3 select example">
+  <option value="1">One Person</option>
+  <option value="2">Two Persons</option>
+  <option value="3">Three Persons</option>
+  <option value="4">Four Persons</option>
+</select>
+ <div class="mb-3 container">
+  <label for="exampleFormControlTextarea1" class="form-label">Detalles:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div class="container text-center p-5">
+  <div class="row align-items-center">
+    <div class="col">
+    </div>
+    <div class="col">
+      <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+<label class="btn btn-outline-danger" for="danger-outlined">Reservar</label>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+</article>
+</section>
+<!-- Sección de Momentos Inolvidables -->
+<section class="container p-5"  id="Eventos">
+  <h2 class="text-center">Crea Momentos Inolvidables</h2>
+<div class="row text-center">
+  <div class="col-12 col-md-4 mb-4">
+    <div class="img-hover-container">
+      <img src="img/cumpleaños - 01.jpg" class="img-fluid mx-auto d-block" alt="Cumpleaños">
+      <div class="img-hover-text">Cumpleaños</div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4 mb-4">
+    <div class="img-hover-container">
+      <img src="img/bodas.jpg" class="img-fluid mx-auto d-block" alt="Bodas">
+      <div class="img-hover-text">Bodas</div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4 mb-4">
+    <div class="img-hover-container">
+      <img src="img/infidelidad - 01.jpeg" class="img-fluid mx-auto d-block" alt="Infidelidades">
+      <div class="img-hover-text">Infidelidades</div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- Sección de Planificar tu Evento -->
+<section class="container d-flex justify-content-center border border-black border-4 rounded-4 p-3 mb-4">
+  <div class="w-100 w-md-75 w-lg-50 text-center">
+    <div class=" p-4 rounded-4">
+      <h3 class="mb-3">¿Estás listo para planificar tu Evento Especial?</h3>
+      <p class="fs-5 mb-4">
+        Dejá que nos encarguemos de cada detalle. Ya sea una cena íntima, una celebración familiar o un evento corporativo, nuestro equipo hará que tu experiencia sea inolvidable. ¡Convertí tus momentos importantes en recuerdos extraordinarios!
+      </p>
+      <a class="btn btn-danger fs-5 px-4 py-2 text-light" href="#Reservaciones">Reserva tu lugar</a>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Mapa -->
+ <section class="container-fluid foxgris fondo4 p-5 mb-5" id="Llamanos">
+<h2 class="container-fluid text-center foxgrisopa p-5">Necesitas Ayuda?? Contactanos</h2>
+<iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.4950746664335!2d11.58202!3d48.13926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758c03a0112f%3A0xfe20fd26a7a7c9d9!2sMaximilianstra%C3%9Fe%2017%2C%2080539%20M%C3%BCnchen%2C%20Alemania!5e0!3m2!1ses!2scr!4v1753667206144!5m2!1ses!2scr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+<div class="container text-center">
+  <div class="row align-items-center">
+    <a href="https://www.google.com/maps/search/?api=1&query=Maximilianstraße+17,+80539+Múnich,+Alemania" target="_blank" class="text-decoration-none col-12 col-md d-flex foxgris m-1">
+      <section class=" foxnaranja text-light fs-1"><i class="bi bi-geo-alt-fill"></i></section>
+      <section>
+        <h3>Ubicación</h3>
+        <p>Maximilianstraße 17, 80539 Múnich, Alemania</p>
+      </section>
+    </a>
+    <a href="tel:+498912345678" class="text-decoration-none col-12 col-md d-flex foxgris m-1">
+      <section class="foxnaranja text-light fs-1"><i class="bi bi-telephone-fill"></i></section>
+      <section>
+        <h3>Llámanos</h3>
+        <p>+49 89 1234 5678</p>
+      </section>
+    </a>
+  </div>
+</div>
+<div class="container">
+  <div class="row align-items-center">
+    <a class="text-decoration-none col-12 col-md d-flex foxgris m-1" href="https://mail.google.com/mail/?view=cm&to=jamezdeveloper@gmail.com&su=Hola&body=Escribo%20desde%20el%20botón">
+      <section class="text-center foxnaranja text-light fs-1"><i class="bi bi-envelope"></i></section>
+      <section>
+        <h3>Envienos un correo electronico</h3>
+        <p>steakhouse@gmail.com</p>
+      </section>
+    </a>
+    <div class="col-12 col-md d-flex foxgris m-1">
+      <section class="foxnaranja text-light fs-1"><i class="bi bi-stopwatch"></i></section>
+      <section>
+        <h4>Horario de Apertura</h4>
+        <p class=" fs-5">L a V 12pm / S 1pm</p>
+      </section>
+    </div>
+  </div>
+</div>
+
+</section>
+    </main>
+
+    <!-- Sección del footer -->
+    <footer>
+      <section class="foxgris align-items-center text-center p-3">
+        <img src="img/JMZ-Orange.svg" class="mt-3"   width="150px" height="150px" alt="">
+         <h2 class=" fw-bold font mb-3">Jame'z Steak House</h2>
+        <article class="logos">
+          <a href="https://www.facebook.com/james.cerdass/"><i class="bi bi-facebook fs-1 p-3"></i></a>
+          <a href="https://www.instagram.com/jamez_sandovall/"><i class="bi bi-instagram fs-1 p-3"></i></a>
+          <a href="https://bsky.app/profile/jamez08.bsky.social"><i class="bi bi-bluesky fs-1 p-3"></i></a>
+          <a href="https://x.com/MattiasJamez"><i class="bi bi-twitter-x fs-1 p-3"></i></a>
+          <a><i class="bi bi-telegram fs-1 p-3"></i></a>
+          <a href="https://mail.google.com/mail/?view=cm&to=jamez0808@gmail.com&su=Hola&body=Escribo%20desde%20el%20botón"><i class="bi bi-envelope fs-1 p-3"></i></a> 
+        </article>
+      </section>
+      <section class="derechos">
+        <div class="d-flex justify-content-center fs-6">JMZ.CORPS 2025</div>
+      </section>
+      <a href="#arriba"><i class="bi bi-arrow-up square text-center fs-1"></i></a>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
